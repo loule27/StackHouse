@@ -1,4 +1,4 @@
-public class Chips implements OrderItem {
+public class Chips implements OrderItem{
     private String type;
 
     public Chips(String type) {

@@ -1,4 +1,4 @@
-public class RegularTopping extends Topping {
+public class RegularTopping extends Topping{
 
     public RegularTopping(String name, boolean extra) {
         super(name, extra);
@@ -6,6 +6,6 @@ public class RegularTopping extends Topping {
 
     @Override
     public double getPrice(Size size) {
-        return 0.00; // Regular toppings are always free
+        return 0.00;
     }
 }

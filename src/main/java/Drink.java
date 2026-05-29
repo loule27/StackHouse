@@ -1,4 +1,4 @@
-public class Drink implements OrderItem {
+public class Drink implements OrderItem{
     private DrinkSize size;
     private DrinkFlavor flavor;
 

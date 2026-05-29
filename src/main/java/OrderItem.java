@@ -1,4 +1,4 @@
-public interface OrderItem {
+public interface OrderItem{
     String getName();
     double getPrice();
     String getDetails();

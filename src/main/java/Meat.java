@@ -5,7 +5,7 @@ public class Meat extends Topping {
     }
 
     @Override
-    public double getPrice(Size size) {
+    public double getPrice(Size size){
         if (isExtra()) {
             return switch (size) {
                 case FOUR_INCH   -> 0.50;

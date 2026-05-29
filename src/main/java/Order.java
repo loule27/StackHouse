@@ -8,8 +8,8 @@ public class Order {
         this.items = new ArrayList<>();
     }
 
-    public void addItem(OrderItem item) {
-        items.add(0, item); // newest first
+    public void addItem(OrderItem item){
+        items.add(0, item);
     }
 
     public void removeItem(OrderItem item) {

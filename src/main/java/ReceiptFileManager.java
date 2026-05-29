@@ -8,8 +8,7 @@ public class ReceiptFileManager {
 
     private static final String RECEIPTS_FOLDER = "receipts";
 
-    public static void saveReceipt(Order order) {
-        // Create receipts folder if it doesn't exist
+    public static void saveReceipt(Order order){
         File folder = new File(RECEIPTS_FOLDER);
         if (!folder.exists()) {
             folder.mkdirs();
@@ -22,7 +21,7 @@ public class ReceiptFileManager {
             FileWriter writer = new FileWriter(receiptFile);
 
             writer.write("============================\n");
-            writer.write("       DELI-cious Receipt    \n");
+            writer.write("       StackHouse Receipt    \n");
             writer.write("============================\n\n");
             writer.write(order.getOrderDetails());
             writer.write("\n\n============================\n");

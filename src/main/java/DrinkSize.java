@@ -1,4 +1,4 @@
-public enum DrinkSize {
+public enum DrinkSize{
     SMALL,
     MEDIUM,
     LARGE

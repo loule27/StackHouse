@@ -1,4 +1,4 @@
-public abstract class Topping {
+public abstract class Topping{
     private String name;
     private boolean extra;
 

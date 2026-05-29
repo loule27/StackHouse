@@ -1,4 +1,4 @@
-public enum DrinkFlavor {
+public enum DrinkFlavor{
     COKE,
     SPRITE,
     FANTA,

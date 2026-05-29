@@ -1,4 +1,4 @@
-public class PhillyCheeseSteak extends SignatureSandwich {
+public class PhillyCheeseSteak extends SignatureSandwich{
 
     public PhillyCheeseSteak() {
         super(Size.EIGHT_INCH, BreadType.WHITE, true);

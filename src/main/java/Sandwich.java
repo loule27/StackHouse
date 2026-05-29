@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sandwich implements OrderItem {
+public class Sandwich implements OrderItem{
     private Size size;
     private BreadType bread;
     private boolean toasted;

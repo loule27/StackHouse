@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class InputValidator {
+public class InputValidator{
 
     public static Integer getValidIntOrBack(Scanner scanner, int min, int max) {
 

@@ -1,4 +1,4 @@
-public class BLT extends SignatureSandwich {
+public class BLT extends SignatureSandwich{
 
     public BLT() {
         super(Size.EIGHT_INCH, BreadType.WHITE, true);
