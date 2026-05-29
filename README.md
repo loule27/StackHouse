@@ -8,9 +8,7 @@ StackHouse is a Java-based deli ordering system that allows customers to create 
 
 - Create custom sandwiches 
 
-- Order signature sandwiches: • BLT 
-
-- Philly Cheese Steak 
+- Order signature sandwiches:  BLT, Philly Cheese Steak 
 
 - Add drinks and chips 
 
