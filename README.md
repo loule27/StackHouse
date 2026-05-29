@@ -60,7 +60,8 @@ Run the `Main.java` file to start the application.
 
 The project supports: 
 
-- Console mode using `UserInterface` • GUI mode using `GUI` 
+- Console mode using `UserInterface`
+- GUI mode using `GUI` 
 
 ## **Author** 
 
